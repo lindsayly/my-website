@@ -1,12 +1,15 @@
+/*h1 element css*/
 h1{
     text-align: center;
     color: #556b2f;
     text-transform: uppercase;
 }
+/*h2 element css*/
 h2{
     background-color: #ffe4c4;
     font-family: Papyrus, "Brush Script MT", Monaco;
 }
+/*p element css*/
 p{
     color: darkgreen; 
     background-color: beige;
