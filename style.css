@@ -1,1 +1,15 @@
-
+h1{
+    text-align: center;
+    color: #556b2f;
+    text-transform: uppercase;
+}
+h2{
+    background-color: #ffe4c4;
+    font-family: Papyrus, "Brush Script MT", Monaco;
+}
+p{
+    color: darkgreen; 
+    background-color: beige;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+}
