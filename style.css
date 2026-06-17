@@ -6,13 +6,17 @@ h1{
 }
 /*h2 element css*/
 h2{
-    background-color: #ffe4c4;
+    background-color: #7cb06f;
     font-family: Papyrus, "Brush Script MT", Monaco;
 }
 /*p element css*/
 p{
-    color: darkgreen; 
-    background-color: beige;
+    color: darkgreen;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+/*ul element css*/
+ul{
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
 }
