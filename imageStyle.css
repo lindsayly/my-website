@@ -1,12 +1,18 @@
 .imageOne {
     float: right;
     margin-left: 5px;
+    border: 3px dashed #67ba52;
+    border-radius: 10px;
 }
 .imageTwo {
     float: left;
     margin-right: 10px;
+    border: 5px dotted #366b29;
+    border-radius: 15px 30px;
 }
 .imageThree {
     float: right;
     margin-left: 10px;
+    border: 3px solid #2b4a23;
+    border-radius: 25px 50px 5px 25px;
 }
