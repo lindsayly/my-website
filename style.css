@@ -9,14 +9,9 @@ h2{
     background-color: #7cb06f;
     font-family: Papyrus, "Brush Script MT", Monaco;
 }
-/*p element css*/
-p{
+/*p and ul elements css*/
+p, ul{
     color: darkgreen;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
-}
-/*ul element css*/
-ul{
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
 }
