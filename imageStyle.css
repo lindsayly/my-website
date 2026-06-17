@@ -1,9 +1,12 @@
 .imageOne {
     float: right;
+    margin-left: 5px;
 }
 .imageTwo {
     float: left;
+    margin-right: 10px;
 }
 .imageThree {
     float: right;
+    margin-left: 10px;
 }
