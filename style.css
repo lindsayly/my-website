@@ -38,9 +38,10 @@ footer {
         'chashakuImg chawanImg chasenImg'
         'chashaku chawan chasen';
     gap: 10px;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     padding: 20px 0;
+    margin: auto;
 }
 .wrapper > div {
     background-color: antiquewhite;
