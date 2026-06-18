@@ -38,6 +38,9 @@ footer {
         'chashakuImg chawanImg chasenImg'
         'chashaku chawan chasen';
     gap: 10px;
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0;
 }
 .wrapper > div {
     background-color: antiquewhite;
@@ -45,8 +48,6 @@ footer {
     color: darkgreen;
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
+    padding: 10px;
 }
 .item2, .item3 { display: none; }
-/*.chashakuImg { background-image: url("images/chashakuImg.jpg"); }
-.chawanImg { background-image: url("images/chawanImg.jpg"); }
-.chasenImg { background-image: url("images/chasenImg.jpg"); }*/
