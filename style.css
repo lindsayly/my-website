@@ -37,8 +37,6 @@ footer {
         'title title title'
         'chashakuImg chawanImg chasenImg'
         'chashaku chawan chasen';
-    gap: 10px;
-    margin: 0px auto;
     background-color: #556b2f;
     padding: 10px;
 }
@@ -47,7 +45,8 @@ footer {
     text-align: center;
     color: darkgreen;
     font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
+    font-size: 18px;
+    padding: 20px 0;
 }
 .wrapper > .title {
     font-size: 28px;
