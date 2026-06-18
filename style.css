@@ -41,7 +41,6 @@ footer {
     max-width: 100%;
     height: auto;
     padding: 20px 0;
-    font-size: 28px;
 }
 .wrapper > div {
     background-color: antiquewhite;
@@ -50,5 +49,8 @@ footer {
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
     padding: 10px;
+}
+.title {
+    font-size: 28px;
 }
 .item2, .item3 { display: none; }
