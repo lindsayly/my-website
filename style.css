@@ -19,3 +19,34 @@ p, ul{
 footer {
     background-image: url("images/footerBackground.jpg")
 }
+/*grid*/
+.title { grid-area: title; }
+.cell2 { grid-area: cell2; }
+.cell3 { grid-area: cell3; }
+.chashakuImg { grid-area: chashakuImg; }
+.chawanImg { grid-area: chawanImg; }
+.chasenImg { grid-area: chasenImg; }
+.chashaku { grid-area: chashaku; }
+.chawan { grid-area: chawan; }
+.chasen { grid-area: chasen; }
+.wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        'title title title'
+        'chashakuImg chawanImg chasenImg'
+        'chashaku chawan chasen';
+    gap: 10px;
+}
+.wrapper > div {
+    background-color: antiquewhite;
+    text-align: center;
+    color: darkgreen;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+.item2, .item3 { display: none; }
+.chashakuImg { background-image: url("images/chashakuImg.jpg"); }
+.chawanImg { background-image: url("images/chawanImg.jpg"); }
+.chasenImg { background-image: url("images/chasenImg.jpg"); }
