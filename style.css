@@ -32,16 +32,15 @@ footer {
 .wrapper {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 4fr 1fr;
     grid-template-areas: 
         'title title title'
         'chashakuImg chawanImg chasenImg'
         'chashaku chawan chasen';
     gap: 10px;
-    width: 100%;
-    height: auto;
-    margin: auto;
+    margin: 0px auto;
     background-color: #556b2f;
+    padding: 10px;
 }
 .wrapper > div {
     background-color: #fbffc9;
