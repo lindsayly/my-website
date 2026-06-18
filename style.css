@@ -41,6 +41,7 @@ footer {
     max-width: 100%;
     height: auto;
     padding: 20px 0;
+    font-size: 28px;
 }
 .wrapper > div {
     background-color: antiquewhite;
