@@ -32,7 +32,7 @@ footer {
 .wrapper {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
     grid-template-areas: 
         'title title title'
         'chashakuImg chawanImg chasenImg'
@@ -49,9 +49,8 @@ footer {
     color: darkgreen;
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
-    padding: 10px;
 }
-.title {
+.wrapper > .title {
     font-size: 28px;
 }
 .item2, .item3 { display: none; }
