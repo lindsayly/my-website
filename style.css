@@ -41,9 +41,10 @@ footer {
     width: 100%;
     height: auto;
     margin: auto;
+    background-color: #556b2f;
 }
 .wrapper > div {
-    background-color: antiquewhite;
+    background-color: #fbffc9;
     text-align: center;
     color: darkgreen;
     font-family: "Times New Roman", Times, serif;
