@@ -30,7 +30,6 @@ footer {
 .chawan { grid-area: chawan; }
 .chasen { grid-area: chasen; }
 .wrapper {
-    max-width: 900px;
     margin: 10px auto;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -53,3 +52,4 @@ footer {
     font-size: 28px;
 }
 .item2, .item3 { display: none; }
+div > img { display: block; }
