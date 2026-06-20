@@ -30,6 +30,9 @@ footer {
 .chawan { grid-area: chawan; }
 .chasen { grid-area: chasen; }
 .wrapper {
+    clear: both;
+    width: 920px;
+    height: 425px;
     margin: 10px auto;
     display: grid;
     grid-template-columns: auto auto auto;
@@ -40,6 +43,7 @@ footer {
         'chashaku chawan chasen';
     background-color: #556b2f;
     padding: 10px;
+    gap: 10px;
 }
 .wrapper > div {
     background-color: #fbffc9;
@@ -50,6 +54,10 @@ footer {
 }
 .wrapper > .title {
     font-size: 28px;
+    padding: 10px;
+}
+.chashaku, .chawan, .chasen {
+    padding: 10px;
 }
 .item2, .item3 { display: none; }
 div > img { display: block; }
