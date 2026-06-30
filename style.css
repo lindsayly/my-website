@@ -82,3 +82,14 @@ div > img { display: block; }
 td a:hover {
     color: #493418;
 }
+/*lists*/
+.benefitsList {
+    list-style-type: lower-roman;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+.brainFunctionList {
+    list-style-type: circle;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
