@@ -115,3 +115,8 @@ nav.primary {
     color: #493418;
 }
 /*form css*/
+form.quiz {
+    width: 50%;
+    border: 2px solid #493418;
+    margin: 25px auto;
+}
