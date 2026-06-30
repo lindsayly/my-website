@@ -61,3 +61,14 @@ footer {
 }
 .item2, .item3 { display: none; }
 div > img { display: block; }
+/*table*/
+.powderedTeasTable { 
+    border-collapse: collapse;
+    color: darkgreen;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14px;
+}
+.powderedTeasTable th, td {
+    border: 5px solid #556b2f;
+    padding: 5px;
+}
