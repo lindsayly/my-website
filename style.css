@@ -20,11 +20,11 @@ h2{
 p, ul{
     color: darkgreen;
 }*/
-/*footer*/
+/*footer css*/
 footer {
     background-image: url("images/footerBackground.jpg")
 }
-/*grid*/
+/*grid css*/
 .title { grid-area: title; }
 .cell2 { grid-area: cell2; }
 .cell3 { grid-area: cell3; }
@@ -64,7 +64,7 @@ footer {
 }
 .item2, .item3 { display: none; }
 div > img { display: block; }
-/*table*/
+/*table css*/
 .powderedTeasTable { 
     max-width: 80%;
     border-collapse: collapse;
@@ -82,10 +82,15 @@ div > img { display: block; }
 td a:hover {
     color: #493418;
 }
-/*lists*/
+/*ol with nested ul css*/
 .benefitsList {
     list-style-type: lower-roman;
 }
 .brainFunctionList {
     list-style-type: circle;
 }
+/*navbar css
+nav.primary {
+    width: 100%;
+    border: 
+} */
