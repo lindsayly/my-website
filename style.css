@@ -79,9 +79,6 @@ div > img { display: block; }
     padding: 5px;
     font-size: 1.2rem;
 }
-td.hide {
-    display: none;
-}
 td a:hover {
     color: #493418;
 }
