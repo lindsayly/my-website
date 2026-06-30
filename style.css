@@ -68,10 +68,11 @@ div > img { display: block; }
     color: darkgreen;
     font-family: "Times New Roman", Times, serif;
     font-size: 14px;
+    margin: 25px auto;
 }
 .powderedTeasTable td {
     border: 5px solid #556b2f;
-    padding: 5px;
+    padding-left: 2px;
 }
 .powderedTeasTable th {
     border: 5px solid #556b2f;
