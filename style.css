@@ -124,11 +124,11 @@ form.quiz {
 fieldset {
     width: 50%;
 }
-input [type=submit] {
+input[type=submit] {
     background-color: #475828;
     color:#ffffff;
 }
-input [type=reset] {
+input[type=reset] {
     background-color: #475828;
     color: #ffffff;
 }
