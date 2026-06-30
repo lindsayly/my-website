@@ -97,13 +97,14 @@ nav.primary {
 }
 .primary ul {
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    align-items: center;
 }
 .primary li {
     display: block;
     list-style-type: none;
     padding: 8px 2px;
-    width: 100px;
+    width: 150px;
 }
 .primary a {
     color: #ffffff;
