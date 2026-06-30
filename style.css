@@ -2,6 +2,7 @@
 html {
     font-family: "Georgia", serif;
     font-size: 14px;
+    color: #003f00;
 }
 /*h1 element css*/
 h1{
@@ -15,9 +16,10 @@ h2{
     font-family: Papyrus, "Brush Script MT", Monaco;
 }
 /*p and ul elements css*/
+/*commenting out from previous assignment to avoid redundancy
 p, ul{
     color: darkgreen;
-}
+}*/
 /*footer*/
 footer {
     background-image: url("images/footerBackground.jpg")
@@ -51,7 +53,6 @@ footer {
 .wrapper > div {
     background-color: #fbffc9;
     text-align: center;
-    color: darkgreen;
     font-size: 1.4rem;
 }
 .wrapper > .title {
@@ -67,7 +68,6 @@ div > img { display: block; }
 .powderedTeasTable { 
     max-width: 80%;
     border-collapse: collapse;
-    color: darkgreen;
     margin: 25px auto;
 }
 .powderedTeasTable td {
