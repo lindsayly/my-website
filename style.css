@@ -28,9 +28,9 @@ footer {
 .title { grid-area: title; }
 .cell2 { grid-area: cell2; }
 .cell3 { grid-area: cell3; }
-.chashakuImg { grid-area: chashakuImg; }
-.chawanImg { grid-area: chawanImg; }
-.chasenImg { grid-area: chasenImg; }
+.chashaku-img { grid-area: chashakuImg; }
+.chawan-img { grid-area: chawanImg; }
+.chasen-img { grid-area: chasenImg; }
 .chashaku { grid-area: chashaku; }
 .chawan { grid-area: chawan; }
 .chasen { grid-area: chasen; }
@@ -65,16 +65,16 @@ footer {
 .item2, .item3 { display: none; }
 div > img { display: block; }
 /*table css*/
-.powderedTeasTable { 
+.powdered-teas-table { 
     max-width: 80%;
     border-collapse: collapse;
     margin: 25px auto;
 }
-.powderedTeasTable td {
+.powdered-teas-table td {
     border: 5px solid #556b2f;
     padding-left: 2px;
 }
-.powderedTeasTable th {
+.powdered-teas-table th {
     border: 5px solid #556b2f;
     padding: 5px;
     font-size: 1.2rem;
@@ -83,10 +83,10 @@ td a:hover {
     color: #493418;
 }
 /*ol with nested ul css*/
-.benefitsList {
+.benefits-list {
     list-style-type: lower-roman;
 }
-.brainFunctionList {
+.brain-function-list {
     list-style-type: circle;
 }
 /*navbar css*/
