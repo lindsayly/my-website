@@ -89,8 +89,19 @@ td a:hover {
 .brainFunctionList {
     list-style-type: circle;
 }
-/*navbar css
+/*navbar css*/
 nav.primary {
     width: 100%;
-    border: 
-} */
+    background-color: #556b2f;
+}
+.primary ul {
+    display: flex;
+    justify-content: center;
+}
+.primary li {
+    list-style-type: none;
+}
+.primary a:hover {
+    background-color: #7cb06f;
+    color: #493418;
+}
