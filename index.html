@@ -31,7 +31,7 @@
         <p>Matcha has many health benefits, including the following:</p>
         <!--ordered list with nested unordered list-->
         <ol class="benefitsList">
-            <li>Lowers Cholersterol</li>
+            <li>Lowers Cholesterol</li>
             <li>Protects the Liver</li>
             <li>Improves Brain Function
                 <ul class="brainFunctionList">
@@ -74,7 +74,7 @@
         <!--section 5-->
         <!--image #3-->
         <img src="images/bambooWhisk.jpg" alt="Japanese bamboo whisk" class="imageThree" width="300px">
-        <h2 id="Locations">Tea is Brought to Japan</h2>
+        <h2 id="locations">Tea is Brought to Japan</h2>
         <p>
             The earliest documented reference to tea in Japan appears in the 9th century concerning the Buddhist monk, who is believed to have brought tea back from China. He is reported to have personally prepared and served sencha to Emperor Saga during an imperial excusion to Karasaki in 815. This sencha is believed to have been Chinese compressed tea, rather than the modern form of sencha in which tea leaves are steeped in hot water for infusion. In 816, by imperial order, tea plantations were established in the Kinki region. However, public interest in tea soon declined. Powdered tea first arrived in Japan around the 12th century. It can be traced back to Tang dynasty China, where Chinese Zen monks were the first to grind bricks of tea into fine powder with a pestle and mortar. Japanese monk Myoan Eisai travelled to China around the late 1180s, and encountered a drink at the temples there that the Chinese called as "mo cha", which involved pouring hot water over powdered tea and whisking it with a bamboo whisk. Eisai was credited to have brought back this Song dynasty style of tea preparation to Japan. In China, this practise of mo cha however faded over the next centuries during the Ming dynasty, but it continued in Japan, and become a key part of Japanese Zen Buddhist culture. In Japan, matcha became an important item at Zen monasteries and was highly valued by the upper classes from the 14th to the 16th centuries. Until the 13th century, matcha was made by grinding tea leaves with a grinder called a yagen, but the particles were rough and coarse in texture. In the 14th century, however, a stone mill specialized for tea appeared, producing finer powder and improving the quality of matcha.
         </p>
@@ -137,6 +137,31 @@
         </p>
         <img src="images/matchaTinWithWhisk.jpg" alt="Pile of matcha powder next to a bamboo whisk and spoonful of matcha powder" class="responsive" width="800px">
         <form method="post" action="">
+            <p>Testing Your Knowledge!</p>
+            <fieldset>
+                <legend>What is one health benefit matcha can provide?</legend>
+                <input list="benefits" name="benefits">
+                <datalist id="benefits">
+                    <option value="Lowers cholesterol">
+                    <option value="Protects the liver">
+                    <option value="Improves brain function">
+                    <option value="Improves skin">
+                    <option value="High in antioxidants">
+                    <option value="Lowers blood pressure">
+                    <option value="Improves heart health">
+                </datalist>
+            </fieldset>
+            <p>Which of the following is not included in the definitions of matcha by the International Organization for Standardization and the Japan Tea Central Public Interest Incorporated Association?</p>
+            <input type="radio" id="camellia" name="definition" value="made from Camellia sinensis var. sinensis">
+            <label for="camellia">It was made from Camellia sinensis var. sinensis (Chinese, small-leaf tea)</label>
+            <input type="radio" id="shade" name="definition" value="grown in shade">
+            <label for="shade">It was grown in the shade</label>
+            <input type="radio" id="green" name="definition" value="green">
+            <label for="green">It is green in color</label>
+            <input type="radio" id="steamed" name="definition" value="steamed and dried">
+            <label for="steamed">It was steamed and dried without being rolled</label>
+            <input type="radio" id="ground" name="definition" value="ground into fine powder">
+            <label for="ground">It was ground into a fine powder</label>
         </form>
         <footer style="text-align:center;">
             <p style="text-align:center;"><a href="#">Home</a> | <a href="#">About</a> | <a href="#">Services</a> | <a href="#">News</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
