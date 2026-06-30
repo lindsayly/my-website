@@ -121,3 +121,6 @@ form.quiz {
     margin: 25px auto;
     padding: 5px 10px 10px 10px;
 }
+fieldset {
+    width: 50%;
+}
