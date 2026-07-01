@@ -24,6 +24,11 @@ p, ul{
 footer {
     background-image: url("images/footerBackground.jpg")
 }
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
 /*grid css*/
 .title { grid-area: title; }
 .cell2 { grid-area: cell2; }
@@ -131,10 +136,4 @@ input[type=submit], input[type=reset] {
     font-size: 1.2rem;
     font-family: "Georgia", serif;
     margin-right: 3px;
-}
-/*footer css*/
-footer a {
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.2rem;
 }
