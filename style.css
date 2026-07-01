@@ -25,6 +25,7 @@ footer {
     background-image: url("images/footerBackground.jpg")
 }
 footer a {
+    display: inline-block;
     text-decoration: none;
     color: #ffffff;
     font-size: 1.2rem;
