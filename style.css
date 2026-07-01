@@ -28,6 +28,7 @@ footer a {
     text-decoration: none;
     color: #ffffff;
     font-size: 1.2rem;
+    margin: 0 5px;
 }
 /*grid css*/
 .title { grid-area: title; }
