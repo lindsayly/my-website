@@ -124,11 +124,10 @@ form.quiz {
 fieldset {
     width: 50%;
 }
-input[type=submit] {
+input[type=submit], input[type=reset] {
     background-color: #475828;
     color:#ffffff;
-}
-input[type=reset] {
-    background-color: #475828;
-    color: #ffffff;
+    padding: 2px;
+    font-size: 1.2rem;
+    font-family: "Georgia", serif;
 }
