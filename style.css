@@ -139,3 +139,9 @@ input[type=submit], input[type=reset] {
     font-family: "Georgia", serif;
     margin-right: 3px;
 }
+/*embedded media css*/
+.embedded {
+    max-width: 100%;
+    height: auto;
+    margin: 25px auto;
+}
