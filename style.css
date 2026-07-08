@@ -140,9 +140,17 @@ input[type=submit], input[type=reset] {
     margin-right: 3px;
 }
 /*embedded media css*/
-.embedded {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 25px auto;
+.media {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.media iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
