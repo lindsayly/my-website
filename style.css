@@ -165,3 +165,6 @@ input[type=submit], input[type=reset] {
 .dark-mode-subject {
     background-color: #3d5e3a;
 }
+.dark-mode-link {
+    color: #94e3ff;
+}
