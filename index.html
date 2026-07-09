@@ -142,7 +142,7 @@
         </div>
         <br><br>
         <img src="images/matchaTinWithWhisk.jpg" alt="Pile of matcha powder next to a bamboo whisk and spoonful of matcha powder" class="responsive" width="800px">
-        <form method="post" action="https://gophp.w3spaces.com/contactA.php" class="quiz">
+        <form method="post" action="https://gophp.w3spaces.com/contactA.php" class="quiz" id="form">
             <p style="font-size: 1.4rem;">Test Your Knowledge!</p>
                 <fieldset>
                     <legend>What is one health benefit matcha can provide?</legend>
@@ -205,10 +205,13 @@
                     hyperlinks[i].classList.toggle("dark-mode-link");
                 }
                 //selecting grid
-                const cells= document.getElementsByClassName("grid-cell");
+                const cells = document.getElementsByClassName("grid-cell");
                 for(let i = 0; i < cells.length; i++) {
                     cells[i].classList.toggle("dark-mode");
                 }
+                //selecting form
+                const form = document.getElementById("form");
+                form.classList.toggle("dark-mode-form");
             }
         </script>
     </body>

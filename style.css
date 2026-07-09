@@ -168,3 +168,6 @@ input[type=submit], input[type=reset] {
 .dark-mode-link {
     color: #94e3ff;
 }
+.dark-mode-form {
+    border-color: #fbffc9;
+}
