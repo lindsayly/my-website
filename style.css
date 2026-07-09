@@ -154,3 +154,15 @@ input[type=submit], input[type=reset] {
     width: 75%;
     height: 75%;
 }
+/*dark mode css*/
+.dark-mode-body {
+    background-color: #003f00;
+    color: #fbffc9;
+}
+.dark-mode-h1 {
+    color: #fbffc9;
+}
+.dark-mode-nav {
+    background-color: #ffffff;
+    color: #556b2f;
+}
