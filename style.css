@@ -169,5 +169,5 @@ input[type=submit], input[type=reset] {
     color: #94e3ff;
 }
 .dark-mode-form {
-    border-color: #fbffc9;
+    border: 2px solid #fbffc9;
 }
