@@ -20,7 +20,7 @@
                 <li><button onclick="darkMode()">Dark Mode</button><button onclick="lightMode()">Light Mode</button></li>
             </ul>
         </nav>
-        <h1>Matcha</h1>
+        <h1 id="title">Matcha</h1>
         <!--section 1-->
         <!--image #1-->
         <img src="images/matchaTinWithWhisk.jpg" alt="Pile of matcha powder next to a bamboo whisk and spoonful of matcha powder" class="imageOne" width="200px">
@@ -188,8 +188,8 @@
             function darkMode() {
                 const body = document.getElementById("body");
                 body.classList.toggle("dark-mode-body");
-                const h1 = document.getElementsByTagName("h1");
-                h1.classList.toggle("dark-mode-h1");
+                const title = document.getElementById("title");
+                title.classList.toggle("dark-mode-h1");
                 alert("You clicked dark mode.");
             }
             //light mode
