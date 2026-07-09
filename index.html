@@ -192,8 +192,10 @@
                 const title = document.getElementById("title");
                 title.classList.toggle("dark-mode-h1");
                 //selecting grid
-                const cell = document.getElementsByClassName("grid-cell");
-                cell.classList.toggle("dark-mode-grid");
+                const cells= document.getElementsByClassName("grid-cell");
+                for(let i = 0; i < cells.length; i++) {
+                    cells[i].classList.toggle("dark-mode-grid");
+                }
                 alert("You clicked dark mode.");
             }
         </script>
