@@ -33,15 +33,15 @@ footer a {
     margin: 0 5px;
 }
 /*grid css*/
-.title { grid-area: title; }
-.cell2 { grid-area: cell2; }
-.cell3 { grid-area: cell3; }
-.chashaku-img { grid-area: chashakuImg; }
-.chawan-img { grid-area: chawanImg; }
-.chasen-img { grid-area: chasenImg; }
-.chashaku { grid-area: chashaku; }
-.chawan { grid-area: chawan; }
-.chasen { grid-area: chasen; }
+#title { grid-area: title; }
+#cell2 { grid-area: cell2; }
+#cell3 { grid-area: cell3; }
+#chashaku-img { grid-area: chashakuImg; }
+#chawan-img { grid-area: chawanImg; }
+#chasen-img { grid-area: chasenImg; }
+#chashaku { grid-area: chashaku; }
+#chawan { grid-area: chawan; }
+#chasen { grid-area: chasen; }
 .wrapper {
     clear: both;
     width: 920px;
@@ -63,14 +63,13 @@ footer a {
     text-align: center;
     font-size: 1.2rem;
 }
-.wrapper > .title {
+.wrapper > #title {
     font-size: 2rem;
     padding: 10px;
 }
-.chashaku, .chawan, .chasen {
+#chashaku, #chawan, #chasen {
     padding: 10px;
 }
-.item2, .item3 { display: none; }
 div > img { display: block; }
 /*table css*/
 .powdered-teas-table { 
@@ -163,7 +162,6 @@ input[type=submit], input[type=reset] {
 .dark-mode-h1 {
     color: #fbffc9;
 }
-.dark-mode-nav {
-    background-color: #ffffff;
-    color: #556b2f;
+.dark-mode-grid {
+    background-color: #003f00;
 }

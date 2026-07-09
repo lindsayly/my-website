@@ -80,15 +80,15 @@
         </p>
         <!--grid area-->
         <div class="wrapper">
-            <div class="title">Preparing Matcha for a Japanese Tea Ceremony</div>
-            <div class="cell2"></div>
-            <div class="cell3"></div>
-            <div class="chashaku-img"><img src="images/chashakuImg.jpg" alt="Chashaku scooping matcha out of tin" width="300px"></div>
-            <div class="chawan-img"><img src="images/chawanImg.jpg" alt="Water being poured into a chawan with matcha in it" width="300px"></div>
-            <div class="chasen-img"><img src="images/chasenImg.jpg" alt="Chasen whisking matcha in a chawan" width="300px"></div>
-            <div class="chashaku">A chashaku is a traditional Japanese bamboo spoon used to scoop matcha out from their storage containers.</div>
-            <div class="chawan">The matcha is scooped into a chawan, a bowl, and hot water is added.</div>
-            <div class="chasen">A chasen is a bamboo whisk used to stir the matcha and water together. The matcha is drunk from the chawan.</div>
+            <div id="title" class="grid-cell">Preparing Matcha for a Japanese Tea Ceremony</div>
+            <div id="cell2" class="grid-cell"></div>
+            <div id="cell3" class="grid-cell"></div>
+            <div id="chashaku-img" class="grid-cell"><img src="images/chashakuImg.jpg" alt="Chashaku scooping matcha out of tin" width="300px"></div>
+            <div id="chawan-img" class="grid-cell"><img src="images/chawanImg.jpg" alt="Water being poured into a chawan with matcha in it" width="300px"></div>
+            <div id="chasen-img" class="grid-cell"><img src="images/chasenImg.jpg" alt="Chasen whisking matcha in a chawan" width="300px"></div>
+            <div id="chashaku" class="grid-cell">A chashaku is a traditional Japanese bamboo spoon used to scoop matcha out from their storage containers.</div>
+            <div id="chawan" class="grid-cell">The matcha is scooped into a chawan, a bowl, and hot water is added.</div>
+            <div id="chasen" class="grid-cell">A chasen is a bamboo whisk used to stir the matcha and water together. The matcha is drunk from the chawan.</div>
         </div>
         <!--section 6-->
         <h2>Differences Between Powdered Japanese Green Teas</h2>
@@ -191,9 +191,9 @@
                 //selecting h1
                 const title = document.getElementById("title");
                 title.classList.toggle("dark-mode-h1");
-                //selecting nav bar
-                const nav = document.getElementById("nav");
-                nav.classList.toggle("dark-mode-nav");
+                //selecting grid
+                const cell = document.getElementsByClassName("grid-cell");
+                cell.classList.toggle("dark-mode-grid");
                 alert("You clicked dark mode.");
             }
         </script>
