@@ -158,7 +158,7 @@ input[type=submit], input[type=reset] {
     height: 100%;
 }
 /*dark mode css*/
-.dark-mode-body {
+.dark-mode {
     background-color: #003f00;
     color: #fbffc9;
 }

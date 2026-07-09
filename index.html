@@ -185,16 +185,19 @@
         <!--javascript-->
         <script>
             function toggleMode() {
+                //selecting html
+                const doc = document.getElementById("html");
+                doc.classList.toggle("dark-mode");
                 //selecting body
-                const body = document.getElementById("html");
-                body.classList.toggle("dark-mode-body");
+                const body = document.getElementById("body");
+                body.classList.toggle("dark-mode");
                 //selecting h1
                 const title = document.getElementById("title");
-                title.classList.toggle("dark-mode-h1");
+                title.classList.toggle("dark-mode");
                 //selecting grid
                 const cells= document.getElementsByClassName("grid-cell");
                 for(let i = 0; i < cells.length; i++) {
-                    cells[i].classList.toggle("dark-mode-grid");
+                    cells[i].classList.toggle("dark-mode");
                 }
                 alert("You clicked dark mode.");
             }
