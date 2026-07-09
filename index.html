@@ -9,8 +9,8 @@
     </head>
     <!--inline css-->
     <body id="body">
-        <nav class="primary">
-            <ul>
+        <nav class="primary" id="nav">
+            <ul id="navElements">
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#products">Products</a></li>
@@ -191,6 +191,9 @@
                 //selecting h1
                 const title = document.getElementById("title");
                 title.classList.toggle("dark-mode-h1");
+                //selecting nav bar
+                const nav = document.getElementById("nav");
+                nav.classList.toggle("dark-mode-nav");
                 alert("You clicked dark mode.");
             }
         </script>
