@@ -142,7 +142,7 @@ input[type=submit], input[type=reset] {
 /*embedded media css*/
 .media {
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 40%;
     padding-top: 30px;
     height: 0;
     overflow: hidden;
@@ -152,7 +152,7 @@ input[type=submit], input[type=reset] {
     top: 0;
     left: 0;
     width: 75%;
-    height: 75%;
+    height: 100%;
 }
 /*dark mode css*/
 .dark-mode-body {
