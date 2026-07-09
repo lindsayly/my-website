@@ -162,9 +162,6 @@ input[type=submit], input[type=reset] {
     background-color: #003f00;
     color: #fbffc9;
 }
-.dark-mode-h1 {
-    color: #fbffc9;
-}
-.dark-mode-grid {
-    background-color: #003f00;
+.dark-mode-subject {
+    background-color: #3d5e3a;
 }
