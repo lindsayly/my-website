@@ -171,3 +171,18 @@ input[type=submit], input[type=reset] {
 .dark-mode-form {
     border: 2px solid #fbffc9;
 }
+/*brands table css*/
+table { 
+    max-width: 80%;
+    border-collapse: collapse;
+    margin: 25px auto;
+}
+table td {
+    border: 2px solid #556b2f;
+    padding-left: 2px;
+}
+table th {
+    border: 2px solid #556b2f;
+    padding: 4px;
+    font-size: 1.1rem;
+}
