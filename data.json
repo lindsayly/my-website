@@ -1,20 +1,20 @@
 [
- {
- "brand": "Naoki",
- "name": "Superior Blend",
- "region": "Uji, Kyoto",
- "notes": "moderate umami, mellow vegetal, smooth, low bitterness"
- },
- {
- "brand": "Nami",
- "name": "Yame First Harvest",
- "region": "Yame, Fukuoka",
- "notes": "nutty, smooth, sweet, savory"
- },
- {
- "brand": "Yamamasa Koyamaen",
- "name": "Samidori",
- "region": "Uji, Kyoto",
- "notes": "rich umami, sweet, creamy"
- }
+    {
+        "brand": "Naoki",
+        "name": "Superior Blend",
+        "region": "Uji, Kyoto",
+        "notes": "moderate umami, mellow vegetal, smooth, low bitterness"
+    },
+    {
+        "brand": "Nami",
+        "name": "Yame First Harvest",
+        "region": "Yame, Fukuoka",
+        "notes": "nutty, smooth, sweet, savory"
+    },
+    {
+        "brand": "Yamamasa Koyamaen",
+        "name": "Samidori",
+        "region": "Uji, Kyoto",
+        "notes": "rich umami, sweet, creamy"
+    }
 ]
